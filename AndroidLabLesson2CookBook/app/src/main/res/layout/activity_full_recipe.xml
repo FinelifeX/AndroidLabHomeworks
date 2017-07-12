@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.androidlablesson2cookbook.FullRecipeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Name"
+        android:layout_margin="16dp"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:layout_below="@id/name"
+        android:text="Time"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/difficulty"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/time"
+        android:text="Difficulty"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/description"
+        android:layout_margin="16dp"
+        android:text="Full description"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/difficulty"/>
+
+</RelativeLayout>
